@@ -1,0 +1,85 @@
+// config
+
+@import "smart-grid"
+@import "variables"
+@import "functions"
+@import "mixins"
+@import "fonts"
+@import "icons"
+// packages
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap"
+//reset
+@import "reset"
+//blocks
+@import "button"
+@import "main-style"
+//override
+.navbar-nav
+  .active
+    box-shadow: none
+    color: #E92C32
+
+a
+  &:visited
+    color: #fff
+  &:hover
+    color: #E92C32
+
+.flex-row
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+
+.btn
+  &.btn-veloman
+    &.btn-default
+      color: #000
+      border-radius: 0
+      &:hover
+        color: #E92C32
+        background: none
+
+.breadcrump
+  a
+    color: #333333
+  padding-top: 0
+  padding-bottom: 0
+  margin-top: 25px
+  margin-left: 0
+
+.color
+  cursor: pointer
+
+.article-1img
+  width: 100%
+  max-height: 498px
+
+.pointer
+  cursor: pointer
+
+.Rectangle299
+  margin: 0 0 10px 10px
+
+@media (max-width: 768px)
+  .Rectangle299
+    width: 100%
+    height: auto
+
+.card__link
+  color: #343434
+  &:visited, &:active, &:focus
+    color: #343434
+
+
+.card
+  &:hover
+    .card__link
+      color: #343434
+
+@import "pages.sass"
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+//bootstrap config
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$brand-success: #a9b816 !default;
+
+
+
+//font-awsome config
+$fa-font-path: "~font-awesome/fonts";
+@import "../../../../node_modules/font-awesome/scss/font-awesome";
+$fa-font-path: "../fonts" !default;
